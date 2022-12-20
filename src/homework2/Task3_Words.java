@@ -20,7 +20,7 @@ public class Task3_Words {
 
     if ((textWordOne.length() > 0) && (textWordTwo.length() > 0) && isEven(textWordOne) && isEven(textWordTwo)){
       String textResult;
-      textResult = textWordOne.substring(0, textWordOne.length()/2) + textWordTwo.substring(0, textWordTwo.length()/2);
+      textResult = textWordOne.substring(0, textWordOne.length()/2) + textWordTwo.substring(textWordTwo.length()/2);
       System.out.println("Result: " + textResult);
     }
     else {

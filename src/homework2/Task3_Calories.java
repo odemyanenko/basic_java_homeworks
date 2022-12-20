@@ -8,9 +8,11 @@ public class Task3_Calories {
     int caloriesOneСentimeter = 40;
 
     double calories24 = getSquarePizza(24);
-    double calories40 = getSquarePizza(40);
+    double calories28 = getSquarePizza(28);
 
-    System.out.printf("More calories in pizza 40cm then 24cm: %.2f calories", calories40 - calories24);
+    System.out.println(calories24);
+    System.out.println(calories28);
+    System.out.printf("More calories in pizza 28cm then 24cm: %.2f calories", (calories28 - calories24)*caloriesOneСentimeter);
   }
 
   public static double getSquarePizza(double diameter) {
