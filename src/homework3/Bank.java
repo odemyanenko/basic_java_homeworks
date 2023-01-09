@@ -16,9 +16,8 @@ public class Bank {
         break;
       }
     }
-    result = result == 0 ? value : result;
 
-    return result;
+    return result == 0 ? value : result;
   }
   public int countTransactionDays(){
     int result = 0;
