@@ -1,0 +1,7 @@
+package homework4.arrays_while_loop;
+
+class NumberUtils {
+  public boolean isEven(int number) {
+    return (number % 2 == 0);
+  }
+}
